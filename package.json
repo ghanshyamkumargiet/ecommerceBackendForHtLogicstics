@@ -1,0 +1,22 @@
+{
+  "name": "backendecommerce",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "keywords": [],
+  "author": "Ghanshyam kumar",
+  "license": "ISC",
+  "description": "e commerce rest api",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "morgan": "^1.10.0"
+  }
+}
