@@ -11,14 +11,7 @@ dotenv.config();
 connectDB();
 const app = express();
 
-app.use(cors());
-
-app.use(
-  cors({
-    origin: "https://ecommercehtlogistic.netlify.app", // Replace this with your Netlify URL
-    credentials: true, // Enable this if you are using cookies or authorization headers
-  })
-);
+app.use(cors("*"));
 
 app.use(express.json());
 app.use(morgan("dev"));
